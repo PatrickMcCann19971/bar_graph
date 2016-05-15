@@ -22,7 +22,7 @@ data = [
 ]
 
 var left= 30
-var color=0
+var colors=0
 var height=1
 
 for (var i = 0; i < 18; i++){
@@ -30,10 +30,10 @@ for (var i = 0; i < 18; i++){
     bar.setAttribute('class', 'bar');
     document.getElementById('frame').appendChild(bar);
     bar.style.height = data[height] + 'px';
-    bar.style.backgroundColor = data[color];
+    bar.style.backgroundColor = data[colors];
     bar.style.left = left + 'px'
     left += 40
-    color += 2
+    colors += 2
     height += 2
     
     
